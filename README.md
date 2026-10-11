@@ -64,4 +64,4 @@ Projeto acadêmico de apresentação turística da Patagônia, desenvolvido orig
 
 ## Direitos e materiais de terceiros
 
-Não foi adicionado arquivo de licença para o código original. As imagens têm as condições próprias do Unsplash; o arquivo de vídeo já existia no repositório e sua origem/licença não está documentada no histórico consultado. A confirmação dessa autorização continua pendente antes de qualquer uso comercial ou redistribuição.
+Não foi adicionado arquivo de licença para o código original. As imagens têm as condições próprias do Unsplash; o vídeo MP4 já fazia parte do projeto original e foi mantido com autorização de publicação confirmada pelo titular.
