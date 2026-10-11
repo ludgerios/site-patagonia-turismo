@@ -1,49 +1,557 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Página acadêmica sobre a Patagônia, com informações sobre regiões, expedições, melhor época para visitar, formas de acesso, imagens e vídeo.">
-<meta name="theme-color" content="#0E1F2B">
-<title>Patagônia | Expedição ao fim do mundo</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Página acadêmica sobre a Patagônia, com informações sobre regiões, expedições, melhor época para visitar, formas de acesso, imagens e vídeo."
+    />
+    <meta name="theme-color" content="#0E1F2B" />
+    <meta name="color-scheme" content="light" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Patagônia — expedição ao fim do mundo" />
+    <meta
+      property="og:description"
+      content="Uma jornada visual por montanhas, geleiras e paisagens austrais da Argentina e do Chile."
+    />
+    <meta property="og:image" content="assets/patagonia-hero.webp" />
+    <title>Patagônia | Expedição ao fim do mundo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
 
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-<a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
-<header>
-<nav id="nav" aria-label="Navegação principal">
-<a class="nav-logo" href="#inicio" aria-label="Voltar ao início">Patagônia</a>
-<ul class="nav-links">
-<li><a href="#sobre">Sobre</a></li><li><a href="#motivos">Por que conhecer</a></li><li><a href="#acesso">Como chegar</a></li><li><a href="#regioes">Regiões</a></li><li><a href="#expedicoes">Expedições</a></li><li><a href="#visuais">Visuais</a></li><li><a href="#contato">Contato</a></li>
-</ul>
-</nav>
-<section class="hero" id="inicio" aria-labelledby="titulo-principal">
-<div class="hero-bg" aria-hidden="true"></div>
-<svg class="hero-mountains" viewBox="0 0 1440 700" preserveAspectRatio="xMidYMax slice" aria-hidden="true"><polygon points="0,700 0,420 120,240 220,330 320,160 430,280 530,100 640,240 740,120 850,260 960,90 1080,230 1180,140 1280,260 1380,200 1440,270 1440,700" fill="rgba(46,107,138,.25)"/><polygon points="0,700 0,520 100,380 200,440 320,300 420,400 540,250 660,360 760,220 880,350 980,240 1100,350 1200,280 1320,390 1440,310 1440,700" fill="rgba(26,58,82,.4)"/><polygon points="530,100 510,180 570,160 630,200 640,240 560,190 490,210 450,260 530,100" fill="rgba(247,249,251,.15)"/><polygon points="960,90 940,165 1000,140 1050,180 1080,230 1010,170 950,200 920,240 960,90" fill="rgba(247,249,251,.12)"/><polygon points="740,120 720,190 775,165 820,200 850,260 775,185 720,215 700,250 740,120" fill="rgba(247,249,251,.1)"/><polygon points="0,700 0,600 180,500 360,560 540,480 720,550 900,470 1080,540 1260,490 1440,540 1440,700" fill="rgba(14,31,43,.6)"/></svg>
-<div class="hero-text"><p class="hero-eyebrow eyebrow">Sul da América — fim do mundo</p><h1 class="hero-title" id="titulo-principal">Pata<br>gônia</h1><p class="hero-subtitle">Onde os Andes encontram o oceano e o vento esculpe a pedra há milênios.</p></div>
-<div class="hero-scroll" aria-hidden="true"><div class="scroll-line"></div><span class="scroll-text">Explorar</span></div>
-</section>
-</header>
-<main id="conteudo">
-<section class="intro" id="sobre" aria-labelledby="sobre-titulo"><div class="section-container"><div><p class="intro-label">O território</p><h2 class="intro-heading" id="sobre-titulo">Uma das últimas regiões selvagens do planeta</h2><p class="body-copy">A Patagônia se estende por uma grande área entre Argentina e Chile, reunindo geleiras, pampas, lagos e montanhas de granito. É um território marcado por paisagens abertas e clima rigoroso.</p><p class="body-copy">Para este projeto acadêmico, a Patagônia foi escolhida como ponto turístico por reunir natureza, aventura, trilhas e cenários de forte impacto visual.</p></div><div class="intro-stats" aria-label="Dados apresentados sobre a Patagônia"><div><div class="stat-number">1.04<span class="stat-unit">M</span></div><p class="stat-label">km² apresentados</p></div><div><div class="stat-number">47</div><p class="stat-label">parques apresentados</p></div><div><div class="stat-number">17<span class="stat-unit">K</span></div><p class="stat-label">km de costa apresentados</p></div><div><div class="stat-number">3°C</div><p class="stat-label">temperatura apresentada</p></div></div></div></section>
-<section class="reasons" id="motivos" aria-labelledby="motivos-titulo"><div class="section-container"><p class="intro-label">Por que conhecer?</p><h2 class="section-heading" id="motivos-titulo">Um destino que combina paisagem, aventura e extremos</h2><div class="reason-grid"><article class="reason-card"><span class="reason-number">01</span><h3>Montanhas e geleiras</h3><p>Torres de granito, vales glaciais e grandes áreas de gelo tornam a paisagem visualmente marcante.</p></article><article class="reason-card"><span class="reason-number">02</span><h3>Experiências de aventura</h3><p>Trilhas, caminhadas sobre o gelo e navegação permitem conhecer a região de diferentes perspectivas.</p></article><article class="reason-card"><span class="reason-number">03</span><h3>Contato com a natureza</h3><p>A presença de áreas preservadas faz da região uma opção para quem busca natureza e tranquilidade.</p></article></div></div></section>
-<section class="access" id="acesso" aria-labelledby="acesso-titulo"><div class="section-container access-grid"><div><p class="intro-label">Planejamento</p><h2 class="section-heading" id="acesso-titulo">Como chegar e quando visitar</h2><p class="body-copy" style="margin-top:1.25rem">A Patagônia ocupa uma área extensa entre Argentina e Chile. Por isso, a cidade-base depende da região que você deseja conhecer.</p><ul class="access-list"><li><strong>Puerto Natales:</strong> base para a Patagônia chilena e acesso a Torres del Paine.</li><li><strong>El Calafate:</strong> referência para conhecer o glaciar Perito Moreno.</li><li><strong>El Chaltén:</strong> ponto de apoio para os roteiros do Fitz Roy e Laguna de los Tres.</li><li><strong>Ushuaia:</strong> base para experiências no extremo sul e navegação pelo Canal Beagle.</li></ul></div><aside class="season-box"><p class="eyebrow">Melhor época apresentada</p><h3>Outubro — Abril</h3><p>Esse período é apresentado neste projeto como a temporada alta. Antes de viajar, consulte as condições locais, horários e regras de acesso de cada atração.</p></aside></div></section>
-<section class="landscape" id="regioes" aria-label="Principais regiões e atrações"><div class="landscape-inner">
-<article class="landscape-panel"><div class="landscape-panel-bg"><img src="https://images.unsplash.com/photo-1736343009297-beacdc7353eb?auto=format&amp;fit=crop&amp;w=1600&amp;q=85" alt="Paisagem montanhosa de Torres del Paine, Chile" loading="lazy" referrerpolicy="no-referrer"></div><div class="landscape-caption"><p class="landscape-caption-name">Torres del Paine</p><p class="landscape-caption-sub">Chile · Patagônia austral</p></div></article>
-<article class="landscape-panel"><div class="landscape-panel-bg"><img src="https://images.unsplash.com/photo-1577373482643-5c7ccf8f0ac9?auto=format&amp;fit=crop&amp;w=1600&amp;q=85" alt="Glaciar Perito Moreno na Argentina" loading="lazy" referrerpolicy="no-referrer"></div><div class="landscape-caption"><p class="landscape-caption-name">Perito Moreno</p><p class="landscape-caption-sub">Argentina · Los Glaciares</p></div></article>
-<article class="landscape-panel"><div class="landscape-panel-bg"><img src="https://images.unsplash.com/photo-1588924486513-acadde2a08c9?auto=format&amp;fit=crop&amp;w=1600&amp;q=85" alt="Monte Fitz Roy na região de El Chaltén, Argentina" loading="lazy" referrerpolicy="no-referrer"></div><div class="landscape-caption"><p class="landscape-caption-name">Monte Fitz Roy</p><p class="landscape-caption-sub">Argentina · El Chaltén</p></div></article>
-</div></section>
-<section class="expeditions" id="expedicoes" aria-labelledby="expedicoes-titulo"><div class="section-container"><div class="expeditions-header"><div><p class="intro-label">Expedições</p><h2 class="section-heading" id="expedicoes-titulo">Roteiros para o fim do mundo</h2></div><p class="expeditions-note">Cada rota, uma conversa com o território.</p></div><div class="expeditions-grid"><article class="exp-card featured"><span class="exp-tag">Destaque</span><h3 class="exp-title">Circuito W — Torres del Paine</h3><div class="divider"></div><p class="exp-desc">Um dos roteiros mais conhecidos da Patagônia chilena, passando por vales, mirantes e montanhas de granito.</p><p class="exp-desc">Ideal para quem busca uma experiência de trekking com forte contato com a paisagem.</p><div class="exp-meta"><span><div>Duração</div><strong>4–5 dias</strong></span><span><div>Dificuldade</div><strong>Moderada</strong></span><span><div>Temporada</div><strong>Out – Abr</strong></span></div></article><article class="exp-card"><span class="exp-tag">Glaciar</span><h3 class="exp-title">Perito Moreno — caminhada no gelo</h3><div class="divider"></div><p class="exp-desc">Experiência de caminhada sobre o glaciar com equipamentos apropriados e acompanhamento especializado.</p><div class="exp-meta"><span><div>Duração</div><strong>1 dia</strong></span><span><div>Dificuldade</div><strong>Leve</strong></span></div></article><article class="exp-card"><span class="exp-tag">Alta montanha</span><h3 class="exp-title">Fitz Roy — Laguna de los Tres</h3><div class="divider"></div><p class="exp-desc">Percurso de El Chaltén com subida exigente até a laguna aos pés do Fitz Roy.</p><div class="exp-meta"><span><div>Duração</div><strong>1 dia</strong></span><span><div>Dificuldade</div><strong>Alta</strong></span></div></article><article class="exp-card"><span class="exp-tag">Marinha</span><h3 class="exp-title">Canal Beagle — navegação austral</h3><div class="divider"></div><p class="exp-desc">Navegação pelos canais austrais, com possibilidade de observar fauna e paisagens do extremo sul.</p><div class="exp-meta"><span><div>Duração</div><strong>1 dia</strong></span><span><div>Dificuldade</div><strong>Leve</strong></span></div></article></div></div></section>
-<section class="media-section" id="visuais" aria-labelledby="visuais-titulo"><div class="section-container"><div class="media-header"><p class="intro-label">Visuais</p><h2 class="section-heading" id="visuais-titulo">A magnitude em imagem e movimento</h2></div><div class="media-layout"><div class="video-container"><video controls playsinline preload="metadata" title="Vídeo da Patagônia" style="width:100%;height:100%;object-fit:cover;"><source src="patagonia-video.mp4" type="video/mp4">Seu navegador não suporta a reprodução de vídeo. <a href="patagonia-video.mp4">Abrir o vídeo</a>.</video></div><div class="photo-grid"><figure><img src="https://images.unsplash.com/photo-1736343009297-beacdc7353eb?auto=format&amp;fit=crop&amp;w=1200&amp;q=85" alt="Montanhas e lago em Torres del Paine" loading="lazy" referrerpolicy="no-referrer"><figcaption class="photo-caption">Paisagem de Torres del Paine.</figcaption></figure><figure><img src="https://images.unsplash.com/photo-1577373482643-5c7ccf8f0ac9?auto=format&amp;fit=crop&amp;w=1200&amp;q=85" alt="Geleira Perito Moreno" loading="lazy" referrerpolicy="no-referrer"><figcaption class="photo-caption">Gelo e montanhas no Perito Moreno.</figcaption></figure><figure><img src="https://images.unsplash.com/photo-1588924486513-acadde2a08c9?auto=format&amp;fit=crop&amp;w=1200&amp;q=85" alt="Montanhas da região de El Chaltén e Fitz Roy" loading="lazy" referrerpolicy="no-referrer"><figcaption class="photo-caption">Picos da região do Fitz Roy.</figcaption></figure></div></div></div></section>
-<section class="manifesto" aria-label="Mensagem sobre a Patagônia"><div class="manifesto-inner"><p class="manifesto-quote">“A Patagônia não se oferece. Ela espera. E quem chega com pressa não a encontra.”</p><p class="manifesto-attr"></p></div></section>
-<section class="contact" id="contato" aria-labelledby="contato-titulo"><div class="section-container"><p class="intro-label">Planejar uma viagem</p><h2 class="contact-heading" id="contato-titulo">Comece sua expedição</h2><p class="contact-sub">Use o formulário para simular um contato e indicar qual experiência mais chamou sua atenção.</p><form class="contact-form" id="contactForm"><div class="form-row"><div class="field"><label for="nome">Nome</label><input type="text" id="nome" name="nome" placeholder="Seu nome completo" autocomplete="name" required></div><div class="field"><label for="email">E-mail</label><input type="email" id="email" name="email" placeholder="contato@exemplo.com" autocomplete="email" required></div></div><div class="field"><label for="interesse">Interesse principal</label><select id="interesse" name="interesse" required><option value="" disabled selected>Selecione uma expedição</option><option>Trekking — Circuito W</option><option>Glaciares — Perito Moreno</option><option>Montanha — Fitz Roy</option><option>Navegação — Canal Beagle</option><option>Roteiro personalizado</option></select></div><div class="field"><label for="mensagem">Mensagem</label><textarea id="mensagem" name="mensagem" placeholder="Conte-nos sobre sua viagem ideal..." required></textarea></div><button type="submit" class="btn-primary">Enviar consulta <span class="btn-arrow" aria-hidden="true">→</span></button><p class="form-feedback" id="formFeedback" role="status" aria-live="polite"></p></form></div><aside class="section-container contact-info" aria-label="Informações do projeto"><div><p class="info-item-label">E-mail</p><p class="info-item-value">projeto.web@patagonia.example</p></div><div><p class="info-item-label">Bases apresentadas</p><p class="info-item-value">Puerto Natales · El Calafate<br>Ushuaia · El Chaltén</p></div><div><p class="info-item-label">Temporada alta</p><p class="info-item-value">Outubro — Abril</p></div><div><p class="info-item-label">Idiomas</p><p class="info-item-value">Português · Español · English</p></div><div class="credits"><strong>Créditos:</strong> imagens via Unsplash; vídeo incorporado do YouTube. Projeto acadêmico desenvolvido em HTML5 e CSS3 para a disciplina de Ferramentas de Desenvolvimento Web.<br><a href="https://unsplash.com/" target="_blank" rel="noopener noreferrer">Fonte das imagens — Unsplash</a> · Vídeo local — arquivo MP4 fornecido no projeto</div></aside></section>
-</main>
-<footer><div class="footer-inner"><div class="footer-logo">Patagônia</div><p class="footer-copy">© 2026 — Projeto acadêmico · Ferramentas de Desenvolvimento Web</p><ul class="footer-links"><li><a href="#sobre">Sobre</a></li><li><a href="#visuais">Visuais</a></li><li><a href="#contato">Contato</a></li></ul></div></footer>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+    <header>
+      <nav id="nav" aria-label="Navegação principal">
+        <a class="nav-logo" href="#inicio" aria-label="Voltar ao início"
+          >Patagônia</a
+        >
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="nav-links"
+          aria-label="Abrir menu"
+        >
+          <span></span><span></span>
+        </button>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#motivos">Por que conhecer</a></li>
+          <li><a href="#acesso">Como chegar</a></li>
+          <li><a href="#regioes">Regiões</a></li>
+          <li><a href="#expedicoes">Expedições</a></li>
+          <li><a href="#visuais">Visuais</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+      <section class="hero" id="inicio" aria-labelledby="titulo-principal">
+        <div class="hero-bg" aria-hidden="true"></div>
+        <div class="hero-grain" aria-hidden="true"></div>
+        <div class="hero-text">
+          <p class="hero-eyebrow eyebrow">
+            Sul da América <span></span> Fim do mundo
+          </p>
+          <h1 class="hero-title" id="titulo-principal">
+            Patagônia<span>.</span>
+          </h1>
+          <p class="hero-subtitle">
+            Onde os Andes encontram o oceano e o vento esculpe a pedra há
+            milênios.
+          </p>
+          <a class="hero-cta" href="#regioes"
+            >Explore o território <span aria-hidden="true">↓</span></a
+          >
+        </div>
+        <p class="hero-location">
+          Argentina <span>·</span> Chile <span>·</span> 40°–55° S
+        </p>
+        <div class="hero-scroll" aria-hidden="true">
+          <div class="scroll-line"></div>
+          <span class="scroll-text">Explorar</span>
+        </div>
+      </section>
+    </header>
+    <main id="conteudo">
+      <section class="intro" id="sobre" aria-labelledby="sobre-titulo">
+        <div class="section-container">
+          <div>
+            <p class="intro-label">O território</p>
+            <h2 class="intro-heading" id="sobre-titulo">
+              Uma das últimas regiões selvagens do planeta
+            </h2>
+            <p class="body-copy">
+              A Patagônia se estende por uma grande área entre Argentina e
+              Chile, reunindo geleiras, pampas, lagos e montanhas de granito. É
+              um território marcado por paisagens abertas e clima rigoroso.
+            </p>
+            <p class="body-copy">
+              Para este projeto acadêmico, a Patagônia foi escolhida como ponto
+              turístico por reunir natureza, aventura, trilhas e cenários de
+              forte impacto visual.
+            </p>
+          </div>
+          <div
+            class="intro-stats"
+            aria-label="Dados apresentados sobre a Patagônia"
+          >
+            <div>
+              <div class="stat-number">
+                1.04<span class="stat-unit">M</span>
+              </div>
+              <p class="stat-label">km² apresentados</p>
+            </div>
+            <div>
+              <div class="stat-number">47</div>
+              <p class="stat-label">parques apresentados</p>
+            </div>
+            <div>
+              <div class="stat-number">17<span class="stat-unit">K</span></div>
+              <p class="stat-label">km de costa apresentados</p>
+            </div>
+            <div>
+              <div class="stat-number">3°C</div>
+              <p class="stat-label">temperatura apresentada</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="reasons" id="motivos" aria-labelledby="motivos-titulo">
+        <div class="section-container">
+          <p class="intro-label">Por que conhecer?</p>
+          <h2 class="section-heading" id="motivos-titulo">
+            Um destino que combina paisagem, aventura e extremos
+          </h2>
+          <div class="reason-grid">
+            <article class="reason-card">
+              <span class="reason-number">01</span>
+              <h3>Montanhas e geleiras</h3>
+              <p>
+                Torres de granito, vales glaciais e grandes áreas de gelo tornam
+                a paisagem visualmente marcante.
+              </p>
+            </article>
+            <article class="reason-card">
+              <span class="reason-number">02</span>
+              <h3>Experiências de aventura</h3>
+              <p>
+                Trilhas, caminhadas sobre o gelo e navegação permitem conhecer a
+                região de diferentes perspectivas.
+              </p>
+            </article>
+            <article class="reason-card">
+              <span class="reason-number">03</span>
+              <h3>Contato com a natureza</h3>
+              <p>
+                A presença de áreas preservadas faz da região uma opção para
+                quem busca natureza e tranquilidade.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="access" id="acesso" aria-labelledby="acesso-titulo">
+        <div class="section-container access-grid">
+          <div>
+            <p class="intro-label">Planejamento</p>
+            <h2 class="section-heading" id="acesso-titulo">
+              Como chegar e quando visitar
+            </h2>
+            <p class="body-copy" style="margin-top: 1.25rem">
+              A Patagônia ocupa uma área extensa entre Argentina e Chile. Por
+              isso, a cidade-base depende da região que você deseja conhecer.
+            </p>
+            <ul class="access-list">
+              <li>
+                <strong>Puerto Natales:</strong> base para a Patagônia chilena e
+                acesso a Torres del Paine.
+              </li>
+              <li>
+                <strong>El Calafate:</strong> referência para conhecer o glaciar
+                Perito Moreno.
+              </li>
+              <li>
+                <strong>El Chaltén:</strong> ponto de apoio para os roteiros do
+                Fitz Roy e Laguna de los Tres.
+              </li>
+              <li>
+                <strong>Ushuaia:</strong> base para experiências no extremo sul
+                e navegação pelo Canal Beagle.
+              </li>
+            </ul>
+          </div>
+          <aside class="season-box">
+            <p class="eyebrow">Melhor época apresentada</p>
+            <h3>Outubro — Abril</h3>
+            <p>
+              Esse período é apresentado neste projeto como a temporada alta.
+              Antes de viajar, consulte as condições locais, horários e regras
+              de acesso de cada atração.
+            </p>
+          </aside>
+        </div>
+      </section>
+      <section
+        class="landscape"
+        id="regioes"
+        aria-label="Principais regiões e atrações"
+      >
+        <div class="landscape-inner">
+          <article class="landscape-panel">
+            <div class="landscape-panel-bg">
+              <img
+                src="assets/torres-del-paine.webp"
+                alt="Lago e montanhas nevadas no Parque Nacional Torres del Paine"
+                loading="lazy"
+                decoding="async"
+                width="1200"
+                height="800"
+              />
+            </div>
+            <div class="landscape-caption">
+              <p class="landscape-caption-name">Torres del Paine</p>
+              <p class="landscape-caption-sub">Chile · Patagônia austral</p>
+            </div>
+          </article>
+          <article class="landscape-panel">
+            <div class="landscape-panel-bg">
+              <img
+                src="assets/perito-moreno.webp"
+                alt="Parede azul do glaciar Perito Moreno sobre o lago"
+                loading="lazy"
+                decoding="async"
+                width="1200"
+                height="800"
+              />
+            </div>
+            <div class="landscape-caption">
+              <p class="landscape-caption-name">Perito Moreno</p>
+              <p class="landscape-caption-sub">Argentina · Los Glaciares</p>
+            </div>
+          </article>
+          <article class="landscape-panel">
+            <div class="landscape-panel-bg">
+              <img
+                src="assets/fitz-roy.webp"
+                alt="Picos de granito e lago na paisagem patagônica"
+                loading="lazy"
+                decoding="async"
+                width="1200"
+                height="800"
+              />
+            </div>
+            <div class="landscape-caption">
+              <p class="landscape-caption-name">Fitz Roy</p>
+              <p class="landscape-caption-sub">Argentina · El Chaltén</p>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section
+        class="expeditions"
+        id="expedicoes"
+        aria-labelledby="expedicoes-titulo"
+      >
+        <div class="section-container">
+          <div class="expeditions-header">
+            <div>
+              <p class="intro-label">Expedições</p>
+              <h2 class="section-heading" id="expedicoes-titulo">
+                Roteiros para o fim do mundo
+              </h2>
+            </div>
+            <p class="expeditions-note">
+              Cada rota, uma conversa com o território.
+            </p>
+          </div>
+          <div class="expeditions-grid">
+            <article class="exp-card featured">
+              <span class="exp-tag">Destaque</span>
+              <h3 class="exp-title">Circuito W — Torres del Paine</h3>
+              <div class="divider"></div>
+              <p class="exp-desc">
+                Um dos roteiros mais conhecidos da Patagônia chilena, passando
+                por vales, mirantes e montanhas de granito.
+              </p>
+              <p class="exp-desc">
+                Ideal para quem busca uma experiência de trekking com forte
+                contato com a paisagem.
+              </p>
+              <div class="exp-meta">
+                <span
+                  ><div>Duração</div>
+                  <strong>4–5 dias</strong></span
+                ><span
+                  ><div>Dificuldade</div>
+                  <strong>Moderada</strong></span
+                ><span
+                  ><div>Temporada</div>
+                  <strong>Out – Abr</strong></span
+                >
+              </div>
+            </article>
+            <article class="exp-card">
+              <span class="exp-tag">Glaciar</span>
+              <h3 class="exp-title">Perito Moreno — caminhada no gelo</h3>
+              <div class="divider"></div>
+              <p class="exp-desc">
+                Experiência de caminhada sobre o glaciar com equipamentos
+                apropriados e acompanhamento especializado.
+              </p>
+              <div class="exp-meta">
+                <span
+                  ><div>Duração</div>
+                  <strong>1 dia</strong></span
+                ><span
+                  ><div>Dificuldade</div>
+                  <strong>Leve</strong></span
+                >
+              </div>
+            </article>
+            <article class="exp-card">
+              <span class="exp-tag">Alta montanha</span>
+              <h3 class="exp-title">Fitz Roy — Laguna de los Tres</h3>
+              <div class="divider"></div>
+              <p class="exp-desc">
+                Percurso de El Chaltén com subida exigente até a laguna aos pés
+                do Fitz Roy.
+              </p>
+              <div class="exp-meta">
+                <span
+                  ><div>Duração</div>
+                  <strong>1 dia</strong></span
+                ><span
+                  ><div>Dificuldade</div>
+                  <strong>Alta</strong></span
+                >
+              </div>
+            </article>
+            <article class="exp-card">
+              <span class="exp-tag">Marinha</span>
+              <h3 class="exp-title">Canal Beagle — navegação austral</h3>
+              <div class="divider"></div>
+              <p class="exp-desc">
+                Navegação pelos canais austrais, com possibilidade de observar
+                fauna e paisagens do extremo sul.
+              </p>
+              <div class="exp-meta">
+                <span
+                  ><div>Duração</div>
+                  <strong>1 dia</strong></span
+                ><span
+                  ><div>Dificuldade</div>
+                  <strong>Leve</strong></span
+                >
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section
+        class="media-section"
+        id="visuais"
+        aria-labelledby="visuais-titulo"
+      >
+        <div class="section-container">
+          <div class="media-header">
+            <p class="intro-label">Visuais</p>
+            <h2 class="section-heading" id="visuais-titulo">
+              A magnitude em imagem e movimento
+            </h2>
+          </div>
+          <div class="media-layout">
+            <div class="video-container">
+              <video
+                controls
+                playsinline
+                preload="metadata"
+                poster="assets/patagonia-hero.webp"
+                title="Vídeo da Patagônia"
+              >
+                <source src="patagonia-video.mp4" type="video/mp4" />
+                Seu navegador não suporta a reprodução de vídeo.
+                <a href="patagonia-video.mp4">Abrir o vídeo</a>.
+              </video>
+            </div>
+            <div class="photo-grid">
+              <figure>
+                <img
+                  src="assets/torres-del-paine.webp"
+                  alt="Montanhas e lago em Torres del Paine"
+                  loading="lazy"
+                  decoding="async"
+                  width="1200"
+                  height="800"
+                />
+                <figcaption class="photo-caption">
+                  Paisagem de Torres del Paine.
+                </figcaption>
+              </figure>
+              <figure>
+                <img
+                  src="assets/perito-moreno.webp"
+                  alt="Geleira Perito Moreno"
+                  loading="lazy"
+                  decoding="async"
+                  width="1200"
+                  height="800"
+                />
+                <figcaption class="photo-caption">
+                  Gelo e montanhas no Perito Moreno.
+                </figcaption>
+              </figure>
+              <figure>
+                <img
+                  src="assets/fitz-roy.webp"
+                  alt="Montanhas patagônicas e lago"
+                  loading="lazy"
+                  decoding="async"
+                  width="1200"
+                  height="800"
+                />
+                <figcaption class="photo-caption">
+                  Picos da região do Fitz Roy.
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="manifesto" aria-label="Mensagem sobre a Patagônia">
+        <div class="manifesto-inner">
+          <p class="manifesto-quote">
+            “A Patagônia não se oferece. Ela espera. E quem chega com pressa não
+            a encontra.”
+          </p>
+          <p class="manifesto-attr">Um território entre Argentina e Chile</p>
+        </div>
+      </section>
+      <section class="contact" id="contato" aria-labelledby="contato-titulo">
+        <div class="section-container">
+          <p class="intro-label">Planejar uma viagem</p>
+          <h2 class="contact-heading" id="contato-titulo">
+            Comece sua expedição
+          </h2>
+          <p class="contact-sub">
+            Use o formulário para simular um contato e indicar qual experiência
+            mais chamou sua atenção.
+          </p>
+          <form class="contact-form" id="contactForm">
+            <div class="form-row">
+              <div class="field">
+                <label for="nome">Nome</label
+                ><input
+                  type="text"
+                  id="nome"
+                  name="nome"
+                  placeholder="Seu nome completo"
+                  autocomplete="name"
+                  required
+                />
+              </div>
+              <div class="field">
+                <label for="email">E-mail</label
+                ><input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="contato@exemplo.com"
+                  autocomplete="email"
+                  required
+                />
+              </div>
+            </div>
+            <div class="field">
+              <label for="interesse">Interesse principal</label
+              ><select id="interesse" name="interesse" required>
+                <option value="" disabled selected>
+                  Selecione uma expedição
+                </option>
+                <option>Trekking — Circuito W</option>
+                <option>Glaciares — Perito Moreno</option>
+                <option>Montanha — Fitz Roy</option>
+                <option>Navegação — Canal Beagle</option>
+                <option>Roteiro personalizado</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="mensagem">Mensagem</label
+              ><textarea
+                id="mensagem"
+                name="mensagem"
+                placeholder="Conte-nos sobre sua viagem ideal..."
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn-primary">
+              Enviar consulta
+              <span class="btn-arrow" aria-hidden="true">→</span>
+            </button>
+            <p
+              class="form-feedback"
+              id="formFeedback"
+              role="status"
+              aria-live="polite"
+            ></p>
+          </form>
+        </div>
+        <aside
+          class="section-container contact-info"
+          aria-label="Informações do projeto"
+        >
+          <div>
+            <p class="info-item-label">E-mail</p>
+            <p class="info-item-value">projeto.web@patagonia.example</p>
+          </div>
+          <div>
+            <p class="info-item-label">Bases apresentadas</p>
+            <p class="info-item-value">
+              Puerto Natales · El Calafate<br />Ushuaia · El Chaltén
+            </p>
+          </div>
+          <div>
+            <p class="info-item-label">Temporada alta</p>
+            <p class="info-item-value">Outubro — Abril</p>
+          </div>
+          <div>
+            <p class="info-item-label">Idiomas</p>
+            <p class="info-item-value">Português · Español · English</p>
+          </div>
+          <div class="credits">
+            <strong>Créditos:</strong> imagens via Unsplash; vídeo incorporado
+            do YouTube. Projeto acadêmico desenvolvido em HTML5 e CSS3 para a
+            disciplina de Ferramentas de Desenvolvimento Web.<br /><a
+              href="https://unsplash.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Fonte das imagens — Unsplash</a
+            >
+            · Vídeo local — arquivo MP4 fornecido no projeto
+          </div>
+        </aside>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-inner">
+        <div class="footer-logo">Patagônia</div>
+        <p class="footer-copy">
+          © 2026 — Projeto acadêmico · Ferramentas de Desenvolvimento Web
+        </p>
+        <ul class="footer-links">
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#visuais">Visuais</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </div>
+    </footer>
 
-  <script src="js/script.js" defer></script>
-</body>
+    <script src="js/script.js" defer></script>
+  </body>
 </html>

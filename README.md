@@ -1,63 +1,67 @@
-# Patagônia — Expedição ao Fim do Mundo
+# Patagônia — expedição ao fim do mundo
 
-> Projeto acadêmico desenvolvido para apresentar a Patagônia como destino turístico, explorando suas paisagens, regiões, experiências e possibilidades de roteiro.
+Uma viagem visual pelo extremo sul da América: montanhas de granito, lagos, geleiras e caminhos entre Argentina e Chile.
 
-## 🌎 Acesse o projeto
+[**Abrir o site publicado →**](https://ludgerios.github.io/site-patagonia-turismo/)
 
-**[→ Abrir o site](https://ludgerios.github.io/site-patagonia-turismo/)**
+![Página inicial da experiência Patagônia em desktop](screenshots/premium-desktop.png)
 
-O projeto está publicado pelo GitHub Pages e pode ser acessado diretamente pelo navegador.
+![Página inicial da experiência Patagônia em celular](screenshots/premium-mobile.png)
 
----
+## A experiência
 
-## Sobre o projeto
+O projeto apresenta algumas das paisagens e rotas mais conhecidas da região em uma página editorial, com fotografia em destaque, leitura confortável e navegação adaptada a telas pequenas.
 
-A ideia deste projeto foi criar uma página com uma proposta mais visual e imersiva sobre a Patagônia.
+- Conheça Torres del Paine, Perito Moreno, Fitz Roy, El Chaltén e Ushuaia.
+- Compare quatro sugestões de expedição e consulte duração, nível e temporada.
+- Explore fotografias e um vídeo local do projeto.
+- Use o formulário demonstrativo para simular uma consulta. Os dados ficam no navegador e não são enviados a um servidor.
 
-Em vez de apresentar apenas informações sobre o destino, a página foi construída como uma experiência de navegação, reunindo textos, imagens, vídeo e diferentes seções para apresentar a região de uma forma mais organizada.
+## Tecnologias
 
-O conteúdo aborda alguns dos principais pontos associados à Patagônia, como Torres del Paine, Perito Moreno, Fitz Roy, El Chaltén, Ushuaia e o Canal Beagle.
+HTML semântico, CSS moderno e JavaScript sem dependências de runtime. As fotografias usadas na página ficam no próprio repositório em WebP; o vídeo é servido pelo arquivo MP4 já incluído. O projeto é publicado como site estático pelo GitHub Pages.
 
-O projeto também apresenta exemplos de expedições e informações básicas para planejamento de uma viagem.
+## Executar localmente
 
----
+Não há etapa de build nem instalação de dependências. Com Python 3 instalado, execute na pasta do projeto:
 
-## O que você encontra na página
+```bash
+python -m http.server 8000
+```
 
-- Apresentação da Patagônia e de suas características
-- Informações sobre montanhas, geleiras e natureza
-- Principais regiões e cidades-base
-- Sugestões de experiências e expedições
-- Circuito W em Torres del Paine
-- Caminhada no Glaciar Perito Moreno
-- Roteiro para Laguna de los Tres / Fitz Roy
-- Navegação pelo Canal Beagle
-- Galeria de imagens
-- Vídeo sobre a região
-- Formulário de contato para simulação de consulta
+Abra [http://localhost:8000](http://localhost:8000). Também é possível usar qualquer servidor local de arquivos estáticos.
 
----
+## Responsividade e acessibilidade
 
-## Tecnologias utilizadas
+A interface foi verificada em 320, 375, 390, 430, 768, 1024 e 1440 px, sem rolagem horizontal. O menu mobile funciona por toque e teclado; links de navegação indicam a seção atual; imagens fora da primeira tela carregam sob demanda; os campos têm rótulos; há atalho para o conteúdo e estados de foco visíveis. As animações usam IntersectionObserver, não bloqueiam o conteúdo sem JavaScript e respeitam prefers-reduced-motion.
 
-- **HTML5** — estrutura e organização do conteúdo
-- **CSS3** — layout, responsividade e identidade visual
-- **JavaScript** — interações e comportamentos da página
-- **GitHub Pages** — publicação do projeto
-
----
-
-## Estrutura do projeto
+## Estrutura
 
 ```text
-patagonia/
-│
-├── css/
-│   └── style.css
-│
-├── js/
-│   └── script.js
-│
+.
+├── assets/                 # Fotografias WebP locais
+├── css/style.css           # Identidade visual, layout e movimento
+├── js/script.js            # Menu, navegação, revelação e formulário
+├── screenshots/            # Capturas de referência
 ├── index.html
-│
 └── patagonia-video.mp4
+```
+
+## Créditos
+
+As fotografias foram obtidas no Unsplash e estão incluídas em WebP para manter o site independente de links externos de imagem. Consulte a página de cada fotografia:
+
+- [Cordilheira patagônica — Marina Zvada](https://unsplash.com/photos/a-mountain-range-covered-in-snow-and-clouds-p0IbuVnu7iA)
+- [Lago e cordilheira em Torres del Paine](https://unsplash.com/photos/lake-beside-mountain-ranges-cuHNkZh7PeU)
+- [Glaciar no Parque Nacional Los Glaciares — Hans-Jürgen Weinhardt](https://unsplash.com/photos/glacier-in-los-glaciares-national-park-santa-cruz-province-patagonia-argentina-5RFMPufTKPA)
+- [Fitz Roy — Brice Cooper](https://unsplash.com/photos/a-snow-covered-mountain-range-under-a-cloudy-blue-sky-4QREPUxFP3E)
+
+O vídeo MP4 faz parte dos arquivos fornecidos com o projeto original. Marcas, conteúdos e materiais de terceiros permanecem de seus respectivos titulares.
+
+## Contexto
+
+Projeto acadêmico de apresentação turística da Patagônia, desenvolvido originalmente para a disciplina de Ferramentas de Desenvolvimento Web. O conteúdo tem caráter informativo e demonstrativo; confirme condições, acesso e temporada diretamente com os parques e operadores locais antes de planejar uma viagem.
+
+## Direitos e materiais de terceiros
+
+Não foi adicionado arquivo de licença para o código original. As imagens têm as condições próprias do Unsplash; o arquivo de vídeo já existia no repositório e sua origem/licença não está documentada no histórico consultado. A confirmação dessa autorização continua pendente antes de qualquer uso comercial ou redistribuição.
